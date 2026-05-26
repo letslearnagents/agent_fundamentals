@@ -20,6 +20,8 @@ This notebook demonstrates:
 - tool calling with OpenAI Agents SDK
 - fetching up-to-date information from the internet before generating a response
 
+--- 
+
 ### 3. `agent_with_custom_tool.ipynb`
 A custom AI web search agent built using:
 
