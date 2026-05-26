@@ -19,3 +19,17 @@ This notebook demonstrates:
 - real-time web search capability
 - tool calling with OpenAI Agents SDK
 - fetching up-to-date information from the internet before generating a response
+
+### 3. `agent_with_custom_tool.ipynb`
+A custom AI web search agent built using:
+
+- OpenAI Agents SDK
+- @function_tool
+- Serper API
+
+This notebook demonstrates:
+
+- creating custom tools for AI agents
+- connecting agents with external APIs
+- understanding the tool-calling workflow
+- returning structured responses from tools to the LLM
