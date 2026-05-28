@@ -35,3 +35,17 @@ This notebook demonstrates:
 - connecting agents with external APIs
 - understanding the tool-calling workflow
 - returning structured responses from tools to the LLM
+
+---
+
+### 4. `agent_workflow_tracing.ipynb`
+This notebook demonstrates how to trace the complete internal workflow of an AI agent using the OpenAI Agents SDK.
+
+- how an agent decides which tool to call,
+- how tools are executed step-by-step,
+- how outputs are passed between tools,
+- how the final response is generated.
+
+The notebook also visualizes the complete execution trace using tracing utilities provided by the SDK.
+
+---
