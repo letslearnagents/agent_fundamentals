@@ -49,3 +49,23 @@ This notebook demonstrates how to trace the complete internal workflow of an AI 
 The notebook also visualizes the complete execution trace using tracing utilities provided by the SDK.
 
 ---
+
+### 5. `agent_with_stateless_memory.ipynb`
+This notebook demonstrates how to build a stateless conversation using the OpenAI Agents SDK.
+
+- executing an agent with a single user query
+- running conversations without storing previous messages
+- understanding the default stateless behavior of agents
+- treating each request as an independent interaction
+- receiving a fresh response from the LLM for every invocation
+
+---
+### 6. `agent_with_conversational_memory.ipynb`
+The notebook highlights how conversational memory allows agents to retain context across multiple user interactions, creating a more natural and coherent multi-turn conversation experience.
+
+- maintaining conversation history across interactions
+- providing previous messages as context to the agent
+- building stateful conversational experiences
+- enabling the agent to remember information from earlier turns
+- improving response relevance through contextual memory
+- managing and updating chat history between agent executions
